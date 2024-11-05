@@ -1,9 +1,14 @@
 # Quang's comments
 *note: stolen entirely from https://github.com/codewithsadee/vcard-personal-portfolio with minor edits for personalization - hat-tip to codewithsadee*
+
 Useful commands:
+
 git pull 
+
 sudo cp -r /home/qdtruong/Personal-Website-Project/* /var/www/html/
+
 sudo nginx -t
+
 sudo systemctl reload nginx
 
 ---------

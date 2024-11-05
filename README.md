@@ -1,10 +1,14 @@
-# vCard - Personal portfolio
+# Quang's comments
+*note: stolen entirely from https://github.com/codewithsadee/vcard-personal-portfolio with minor edits for personalization - hat-tip to codewithsadee*
+Useful commands:
+git pull 
+sudo cp -r /home/qdtruong/Personal-Website-Project/* /var/www/html/
+sudo nginx -t
+sudo systemctl reload nginx
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+---------
+
+# vCard - Personal portfolio
 
 vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 

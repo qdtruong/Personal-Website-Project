@@ -1,7 +1,7 @@
 # Quang's comments
 *note: stolen entirely from https://github.com/codewithsadee/vcard-personal-portfolio with minor edits for personalization - hat-tip to codewithsadee*
 
-Useful commands:
+Useful commands for 165.227.217.35:
 
 git pull 
 

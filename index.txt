@@ -1,5 +1,8 @@
 Tasks:
 - Nginx
+-- sudo cp -r /home/qdtruong/Personal-Website-Project/* /var/www/html/
+-- sudo nano /etc/nginx/sites-enabled/default
+-- sudo service nginx restart
 - RStudio
 - RShiny
 - Ollama

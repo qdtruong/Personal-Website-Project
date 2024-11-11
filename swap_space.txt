@@ -1,0 +1,23 @@
+#this is to add/check/configure swap space in case your server is low on RAM
+
+sudo swapon --show #see swap config
+free -h #check active swaps
+df -h #check hard drive space
+
+sudo fallocate -l 1G /swapfile #create swapfile with 1g space
+ls -lh /swapfile #verify swapfile
+sudo chmod 600 /swapfile #make swap file accessible to root
+ls -lh /swapfile #verify swapfile
+sudo mkswap /swapfile #mark the file as swap
+sudo swapon /swapfile #enable swap
+sudo swapon --show #verify swap is available
+free -h #verify active swaps
+
+sudo cp /etc/fstab /etc/fstab.bak #make swap permanent (backup this file just in case)
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab #make swap permanent
+
+cat /proc/sys/vm/swappiness #check system "swappiness"
+sudo sysctl vm.swappiness=10 #change swappiness (only until next reboot)
+sudo nano /etc/sysctl.conf (add vm.swappiness=10 at the bottom) #swappiness will be set every reboot
+
+

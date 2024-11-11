@@ -4,6 +4,7 @@ Tasks:
 - RShiny
 - Ollama
 - Docker(Daemon)
--- sudo systemctl start docker/sudo systemctl stop docker
---
+-- sudo systemctl start docker/sudo systemctl stop docker/sudo systemctl stop docker.socket
 - Docker(OpenWebUI)
+-- docker images
+-- docker run <image>

@@ -8,7 +8,7 @@ Tasks:
 - Ollama
 -- export OLLAMA_HOST=https://open-perch-apparent.ngrok-free.app
 -- ollama run dolphin-mistral
--- 
+-- ollama create horny-hagrid -f hagrid-modelfile
 - Docker(Daemon)
 -- sudo systemctl start docker/sudo systemctl stop docker/sudo systemctl stop docker.socket
 - Docker(OpenWebUI)

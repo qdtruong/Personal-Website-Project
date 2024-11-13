@@ -46,7 +46,7 @@
 
 <div class="container">
     <h2>Chatbot Instructions</h2>
-    <p>How do you run a Large Language Model on a server that only has 1 gb of RAM and 20 gb of hard drive space? Basically: you set up a T4 run-time on Google Colab, tell it to use its GPU for computation, download/run an Ollama server, then expose that server to the internet using an ngrok tunnel. Then on this server, run a parallel instance of Ollama, feed commands to the Google Colab instance through the ngrok tunnel, and set up a Docker container running OpenWebUI to make for an easier user-experience. We will do all of that in the 2 steps below:</p>
+    <p>How do you run a Large Language Model on a server that only has 1 gb of RAM and 20 gb of hard drive space? Basically: you set up a T4 run-time on Google Colab, tell it to use its GPU for computation, download/run an Ollama server, then expose that server to the internet using an ngrok tunnel. Then on THIS server, run a parallel instance of Ollama, feed commands to the Google Colab instance through the ngrok tunnel, and set up a Docker container running OpenWebUI to make for an easier user-experience. We will do all of that in the 2 steps below:</p>
     
     <div class="step">
         <h3>Step 1:</h3>
@@ -59,14 +59,14 @@
         </ul>
         <img src="/assets/images/terminal_example.png" alt="Terminal Example">
         <ul>
-            <li>After seeing this, KEEP THE TAB OPEN. The Google Colab "play" button will keep spinning. This means that Colab is actively running the LLM model</li>
+            <li>After seeing this, KEEP THE TAB OPEN. The Google Colab "play" button will keep spinning. This means that Colab is actively running the LLM model.</li>
         </ul>
     </div>
 
     <div class="step">
         <h3>Step 2:</h3>
         <p>
-            After ensuring that the Google Colab Script is actively running, click on this link. You should login in with:
+            After ensuring that the Google Colab Script is actively running, click on the link below. You should login in with:
         </p>
         <p><strong>USER:</strong> guest@qdtruong.com<br>
            <strong>PASSWORD:</strong> 123456</p>

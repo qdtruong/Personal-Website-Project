@@ -4,6 +4,8 @@
 
 Useful commands for 165.227.217.35:
 
+htop
+
 git pull 
 
 sudo cp -r /home/qdtruong/Personal-Website-Project/* /var/www/html/

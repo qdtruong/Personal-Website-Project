@@ -1,8 +1,11 @@
 # Quang's comments
+https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
 *note: stolen entirely from https://github.com/codewithsadee/vcard-personal-portfolio with minor edits for personalization - hat-tip to codewithsadee*
 (icon colors are roughly #ffcf66)
 
 Useful commands for 165.227.217.35:
+
+su - qdtruong
 
 htop
 

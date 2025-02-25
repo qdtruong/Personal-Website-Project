@@ -17,6 +17,8 @@ sudo nginx -t
 
 sudo systemctl reload nginx
 
+ss -tupln / netstat -tupln
+
 ---------
 
 # vCard - Personal portfolio

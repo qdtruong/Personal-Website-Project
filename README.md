@@ -22,7 +22,8 @@ ss -tupln / netstat -tupln
 steps to recreate website
 1) https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
 2) add swap space
-3) get ollama/docker/openwebui running
+3) Add SSL certificate
+4) get ollama/docker/openwebui running
 ---------
 
 # vCard - Personal portfolio

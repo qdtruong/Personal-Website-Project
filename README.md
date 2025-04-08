@@ -1,5 +1,4 @@
 # Quang's comments
-https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
 *note: stolen entirely from https://github.com/codewithsadee/vcard-personal-portfolio with minor edits for personalization - hat-tip to codewithsadee*
 (icon colors are roughly #ffcf66)
 
@@ -19,6 +18,11 @@ sudo systemctl reload nginx
 
 ss -tupln / netstat -tupln
 
+---------
+steps to recreate website
+1) https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
+2) add swap space
+3) get ollama/docker/openwebui running
 ---------
 
 # vCard - Personal portfolio
